@@ -1,0 +1,113 @@
+{
+    "controlador.TDA.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.SubEstacion",
+                "id": 1,
+                "nombre": "SUBESTACION OBRAPIA EERSSA",
+                "imagen1": "141e9b32-3acd-4ed6-8bd9-8d21e415db04.jpg",
+                "imagen2": "7de7db1f-0484-4017-96a4-aeb1437b6f63.jpg",
+                "imagen3": "",
+                "coordenada": {
+                    "id": 1,
+                    "longitud": -3.9928952,
+                    "latitud": -79.2140135
+                }
+            },
+            "next": {
+                "info": {
+                    "@class": "modelo.SubEstacion",
+                    "id": 2,
+                    "nombre": "Subestacion La Paz",
+                    "imagen1": "9fc41afd-0845-4629-9acc-68005de3c22f.jpg",
+                    "imagen2": "38ea1d08-67f0-451c-9f4f-0cdd2171aa3a.png",
+                    "imagen3": "86c5fdca-d90f-4c77-8bea-68182c56f6be.jpg",
+                    "coordenada": {
+                        "id": 2,
+                        "longitud": -3.3546853,
+                        "latitud": -79.4927328
+                    }
+                },
+                "next": {
+                    "info": {
+                        "@class": "modelo.SubEstacion",
+                        "id": 3,
+                        "nombre": "SUBESTACION LOJA TRANSELECTRIC",
+                        "imagen1": "04e9e009-2c0b-4082-99c8-e6efd4e9d018.jpeg",
+                        "imagen2": "19b84677-208f-4ad0-8ab8-6ed149cb019f.jpg",
+                        "imagen3": "7856e436-0cfd-4b27-b5d8-3e41321a249f.jpg",
+                        "coordenada": {
+                            "id": 3,
+                            "longitud": -3.9957004,
+                            "latitud": -79.5258852
+                        }
+                    },
+                    "next": {
+                        "info": {
+                            "@class": "modelo.SubEstacion",
+                            "id": 4,
+                            "nombre": "Subestacion Kennedy Norte",
+                            "imagen1": "d413b1e7-fe7f-4e7a-9c24-acb333905009.jpg",
+                            "imagen2": "27804909-43ac-496f-8662-0f5172036fcf.jpg",
+                            "imagen3": "003850a5-aacb-4449-9c94-c3a6750e1f25.jpg",
+                            "coordenada": {
+                                "id": 4,
+                                "longitud": -2.1546201,
+                                "latitud": -80.2044224
+                            }
+                        },
+                        "next": {
+                            "info": {
+                                "@class": "modelo.SubEstacion",
+                                "id": 5,
+                                "nombre": "Subestacion Santa Rosa",
+                                "imagen1": "3adb363b-bfb3-4477-bb24-874be85fdea5.jpg",
+                                "imagen2": "28849035-6f4e-463e-9b4c-1fc7d0766fec.jpeg",
+                                "imagen3": "62ec55bf-b4d0-498f-a18f-93257af77a10.jpg",
+                                "coordenada": {
+                                    "id": 5,
+                                    "longitud": -0.3631621,
+                                    "latitud": -78.8429326
+                                }
+                            },
+                            "next": {
+                                "info": {
+                                    "@class": "modelo.SubEstacion",
+                                    "id": 6,
+                                    "nombre": "Subestacion El Arenal",
+                                    "imagen1": "76fb63ca-56ae-4164-8594-4494131c462d.jpg",
+                                    "imagen2": "ca6f44f7-a4cb-40ec-a960-7619bed27e1e.jpg",
+                                    "imagen3": "a451c918-0589-424b-84ad-cb739ad95abd.jpeg",
+                                    "coordenada": {
+                                        "id": 6,
+                                        "longitud": -2.9100512,
+                                        "latitud": -79.3442005
+                                    }
+                                },
+                                "next": {
+                                    "info": {
+                                        "@class": "modelo.SubEstacion",
+                                        "id": 7,
+                                        "nombre": "Subestacion Electrica Nueva Prosperina",
+                                        "imagen1": "8ce2a3ab-511c-44dd-9ee0-2a6ed9a16d42.jpg",
+                                        "imagen2": "5b2e6363-b10b-441c-81a8-642c722fd8a8.jpg",
+                                        "imagen3": "2cdbf3ca-575d-4307-ad02-9950bddb408f.jpg",
+                                        "coordenada": {
+                                            "id": 7,
+                                            "longitud": -2.1263717,
+                                            "latitud": -80.2917951
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header\/next\/next\/next\/next\/next\/next"
+        },
+        "length": 7
+    }
+}
